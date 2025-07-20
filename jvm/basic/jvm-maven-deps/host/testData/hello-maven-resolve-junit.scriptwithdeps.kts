@@ -3,5 +3,8 @@
 
 org.junit.Assert.assertTrue(true)
 
-println("Hello, World!")
+while (true) {
+    println("Hello, World!")
+    Thread.sleep(5000)
+}
 
